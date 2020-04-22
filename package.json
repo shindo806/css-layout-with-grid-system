@@ -1,0 +1,13 @@
+{
+  "name": "my-css-library",
+  "version": "1.0.0",
+  "description": "Small CSS library for my personal setup",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "compile": "node-sass sass/main.scss css/styles.css -wo"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
